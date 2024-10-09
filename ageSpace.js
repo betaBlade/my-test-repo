@@ -1,3 +1,9 @@
+/**
+*@param planet: a string with the name of a planet
+*@paran secs: number of seconds to convert to years 
+*in the specified in the planet parameter
+*@return: The number of year in the specified planet
+*/
 export const age = (planet, secs) => {
    const orbitalPeriods = {
       'mercury':0.2408467,

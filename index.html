@@ -1,10 +1,27 @@
 <!doctype html>
 <html>
    <head>
-      <meta charset="utf-8">
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width-device, initial-scale=1.0" />
       <title>Module example</title>
+      <link type="text/css" rel="stylesheet" href="styles.css" />
    </head>
    <body>
+      <form>
+         <div class="divInput">
+            <label for="txtPlanet">Planet:</label>
+            <input type="text" id="txtPlanet" />
+         </div>
+         <div class="divInput">
+            <label for="numSeconds">Seconds:</label>
+            <input type="number" id="numSeconds" />
+         </div>
+         <div class="divInput">
+            <label for="txtAge">Age:</label>
+            <input type="text" id="txtAge" readonly />
+         </div>
+         <div><button type="button" id="btnCalculate">Calcular</button></div>
+      </form>
       <script src="main.js" type="module"></script>
    </body>
 </html>

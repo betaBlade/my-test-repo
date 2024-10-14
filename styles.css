@@ -1,0 +1,8 @@
+.divInput{
+    display:flex;
+    margin:10px 20px;
+}
+
+#btnCalculate{
+    cursor:pointer;
+}
